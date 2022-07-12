@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href='registration.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div id='title'><u>F1H2O</u><sub>RGUKT</sub></div>
+    </header>
+    <main>
+        <h1>Registration Form:</h1>
+    <table id='details'>
+        
+        <form action='success.html' onsubmit="return validate()">
+            <tr>
+                <td>UserName:</td><td><input type='text' placeholder="Username:" id='userName'></td>
+                <tr><td>Email:</td><td><input type='email' id='mail'></td></tr>
+                <tr><td>Mobile Number:</td><td><input type='text' id='mobile'></td></tr>
+                <tr><td>Country:</td><td><select id='country'>
+                    <option>India</option>
+                    <option>America</option>
+                    <option>England</option>
+                    <option>Germany</option>
+                    <option>Representatives of RGUKT</option>
+                </select></td></tr>
+                
+                <tr><td></td><td id='f'></td></tr>
+                <tr><td>Payment Reference:</td><td><input type='text'  id='pType'></td></tr>
+                <tr><td>Type of Accomadation:</td><td><input type='radio'  value='2000' id='c1' name='acc'>INuzvid <input type='radio' id='c2' value='2000' name='acc'>IKadapa</td><td id='warn'></td></tr>
+                <tr><td></td><td><input type='radio' value='3000' id='c3' name='acc'>ISKLM <input type='radio' value='3000' id='c4' name='acc'>IOngole</td></tr>
+
+
+                <tr><td>Services Required:</td><td><input type='checkbox'  value='bf'id='ch1'>Breakfast <input type='checkbox' id='ch2' val='l'>Lunch</td></tr>
+                <tr><td></td><td><input type='checkbox' value='sn' id='ch3'>Snakes<input type='checkbox' val='t' id='ch4'>TEA</td></tr>
+                <tr><td></td><td><input type='checkbox' value='sn' id='ch5'>Coffee <input type='checkbox' val='t' id='ch6'>Eggs</td></tr>
+                <tr><td>NO.OF Days Staying:</td><td><input type='number' id='daysStay'></td></tr>
+                <tr><td>Cost Of Accomadation:</td><td><input type='number' id='cost' disabled></td></tr>
+                <tr><td></td><td><input type='submit'></td></tr>
+
+            </tr>
+        </form>
+    </table>
+</main>
+    <script src='registration.js'></script>
+</body>
+</html>

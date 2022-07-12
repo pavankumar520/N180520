@@ -1,0 +1,41 @@
+body{
+    background-color:blue;
+}
+
+header #title{
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    position: relative;
+    left:35%;
+    display: inline-block;
+    border:2px solid black;
+    padding:5px 100px;
+    font-size: 2rem;
+    border-radius: 7%;
+}
+
+header #title:hover{
+    background-color: green;
+    color:yellow;
+}
+header sub{
+    color:red;
+    font-size: 1rem;
+}
+
+main h1{
+    margin-left:20%;
+}
+table{
+    color:black;
+    background-color: green;
+    margin:1% 10% 0% 20%;
+    background-size:100% 100%;
+    border-radius: 5%;
+    padding:5% 2% 5% 2%;
+}
+
+input:focus{
+    background-color: yellow;
+}
